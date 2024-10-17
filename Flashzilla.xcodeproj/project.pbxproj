@@ -6,7 +6,12 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		037ACEE22CC17BED00DB376F /* EditCards.swift in Sources */ = {isa = PBXBuildFile; fileRef = 037ACEE12CC17BED00DB376F /* EditCards.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
+		037ACEE12CC17BED00DB376F /* EditCards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditCards.swift; sourceTree = "<group>"; };
 		03CF9ED02CC10A930033E2B0 /* Flashzilla.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Flashzilla.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -32,6 +37,7 @@
 		03CF9EC72CC10A930033E2B0 = {
 			isa = PBXGroup;
 			children = (
+				037ACEE12CC17BED00DB376F /* EditCards.swift */,
 				03CF9ED22CC10A930033E2B0 /* Flashzilla */,
 				03CF9ED12CC10A930033E2B0 /* Products */,
 			);
@@ -119,6 +125,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				037ACEE22CC17BED00DB376F /* EditCards.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
